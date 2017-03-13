@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	border:0;
+	padding:0;
+}
+body{
+	font-family: 'Marvel', sans-serif;
+}
+h3{
+margin:10px 0px 20px 0px;
+font-family: 'Rock Salt', cursive;
+}
+.text-center{
+	text-align: center;
+}
+.wrapper{
+	width: 100%;
+}
+
+.type-food {
+    display: inline-block;
+    width: 30%;
+    background: INDIGO;
+    margin: 0px 10px 0px 10px;
+}
+.indicator{
+	background: DARKTURQUOISE;
+	text-align: center;
+	padding: 0px 20px 0px 0px;
+	width: 20%;
+	float: right;
+	font-family: 'Rock Salt', cursive;
+	color: white;
+	border-bottom: solid 4px #FFF;
+}
+.description{
+	display: inline-block;
+	color: white;
+	padding: 20px;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+body{
+	background: blue;
+}
+.type-food {
+    width: 47%;
+}
+.type-food:nth-child(4) {
+    width: 97%;
+    margin-top: 10px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+body{
+	background: lime;
+}
+.type-food {
+    width: 97%;
+     margin-top: 10px;
+}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+body{
+	background: red;
+}
+}
